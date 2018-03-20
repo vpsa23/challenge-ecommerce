@@ -15,7 +15,7 @@ app.use('/static', express.static('static'));
 app.get('/', (req, res) => res.render('index', { title : 'Falabella Shopping Cart' }));
 
 //your routes
-app.get('/items', (req, res) => res.json(mock));
+app.get('/Items', (req, res) => res.json(mock));
 
 const listener = app.listen(1337, () => {
   console.log(`Running app on ${listener.address().address}${listener.address().port}`)
