@@ -1,15 +1,38 @@
 /* you can add any styles you think could improve user's experience */
+/*CONTAINER BOTON*/
+.count {
+  background-color: #C8E6C9;
+  width: 10%;
+  font-weight: 600;
+  border-radius: 6px;
+  color: #000;
+
+  height: 5vh;
+}
+
+.count p {
+  margin-left: 4%;
+}
+
+
+/*CONTAINER PRODUCTOS*/
 .products {
   display: inline-block;
   margin-left: 7%;
   background-color: #FFF;
   margin-top: 2%;
+  transition: transform .7s;
 }
 
-#app {
+.products:hover {
+  transform: scale(1.2);
+}
+
+.productsContainer {
   background-color: #E0E0E0;
   width: 100%;
   height: 50vh;
+  margin-top: 15%;
 }
 
 button {
